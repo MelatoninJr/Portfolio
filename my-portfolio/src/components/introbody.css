@@ -1,0 +1,70 @@
+:root {
+    --gradient: linear-gradient(
+        30deg,
+        #ff99c8,
+        #fcf6bd,
+        #d0f4de,
+        #a9def9,
+        #e4c1f9
+           )
+
+}
+
+
+.introbody {
+    min-height: 30em;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: bg-animation 15s infinite alternate;
+
+}
+
+.inner-container {
+    flex-grow: 1;
+    max-height: 40em;
+    max-width: 80em;
+    border-radius: 1em;
+    margin: 2em;
+background-color: transparent;
+z-index: 2;
+
+
+}
+
+
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: 100%;}
+
+}
+
+
+
+.custom-shape-divider-bottom-1663002224 {
+    position: relative;
+    z-index: 1;
+    top: 69%;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    overflow: visible;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1663002224 svg {
+    overflow: visible;
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1663002224 .shape-fill {
+    fill: white;
+}
+
