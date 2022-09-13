@@ -16,9 +16,9 @@
     margin-top: 10em;
     display: flex;
     min-height: 75em;
-    max-height: 75em;
     flex-direction: column;
     align-items: center;
+    border: 2px solid red;
 
 }
 
@@ -28,9 +28,11 @@
     justify-content: center;
     align-items: center;
     z-index: 3;
-    
+    border: 2px solid blue;
+
     
 }
+
 .loading {
     stroke-dasharray: 670;
     stroke-dashoffset: 670;
@@ -42,22 +44,25 @@
 
 .projects-body-container {
     min-height: 30em;
-    max-height: 30em;
     max-width: 90%;
     display: flex;
     flex-direction: column;
     padding: 1em;
     justify-content: space-between;
     gap: 2em;
+    border: 2px solid blue;
+
 }
 
 .project-column-one,
 .project-column-two {
     min-height: 30em;
-    max-height: 30em;;
     gap: 8em;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid purple;
+
 }
 .project-column-two {
 }
@@ -65,7 +70,6 @@
 .project-card-container {
     display: flex;
     flex-direction: column;
-
     max-height: 30em;
     min-width: 25em;
     max-width: 25em;
@@ -140,4 +144,29 @@
 .underline {
     text-decoration: underline;
     color: blue;
+}
+
+@media (max-width: 900px) {
+    .projects-container {
+        max-width: 100%;
+    }
+    .project-title-container {
+    }
+    .project-column-one,
+    .project-column-two {
+    flex-direction: column;
+    max-height: 100%;
+    gap: 2em;
+}
+.projects-body-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12em;
+    justify-content: center;
+    align-items: center;
+}
+.project-card-container {
+    min-height: 35em;
+}
+    
 }

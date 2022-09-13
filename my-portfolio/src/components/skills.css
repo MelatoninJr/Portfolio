@@ -5,6 +5,8 @@
     flex-direction: column;
     background-color: #a9def9;
     margin-bottom: 8em;
+    border: 6px solid red;
+
 }       
 
 .skills-inner-one {
@@ -17,6 +19,8 @@
     border-radius: 1em;
     justify-content: space-around;
     background-color: white;
+    border: 6px solid blue;
+
 }
 
 
@@ -100,9 +104,15 @@
 
     .skills-inner-one {
         min-width: 100%;
+        align-self: center;
     }
     .skills-container {
+        justify-content: center;
+        align-items: center;
         padding: 1em;
+    }
+    .custom-shape-divider-top-1663029526 {
+        width: 120%;
     }
 }
 
