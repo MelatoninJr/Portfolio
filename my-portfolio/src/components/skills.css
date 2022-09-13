@@ -10,6 +10,7 @@
 }       
 
 .skills-inner-one {
+    align-self: center;
     margin: 2em;
     min-width: 60em;
     padding: 2em;
