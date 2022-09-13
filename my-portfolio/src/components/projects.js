@@ -1,7 +1,12 @@
 import React from "react";
 import './projects.css'
-import DiscordExample from '../assets/discord.png'
-
+import { BsDisplay, BsGithub } from "react-icons/bs";
+import DiscordExample from '../assets/discord.gif'
+import BattleshipExample from '../assets/battleship.gif'
+import WaldoExample from '../assets/Waldo.gif'
+import WeatherExample from '../assets/weather.gif'
+import ShoppingExample from '../assets/shopping.gif'
+import MatchingExample from '../assets/matching.gif'
 const Projects = () => {
 
     return (
@@ -36,11 +41,113 @@ const Projects = () => {
                         <div className="project-card-image">
                             <img src={DiscordExample} className='project-example' ></img>
                         </div>
+                        <div className="project-innerbody-container">
+                                This project was created as my final JS project for the TOP ciricullum. It is built with 
+                                React as well as React Hooks. I also got to utilize FireBase for my backend and used their
+                                Google authentication which is shown off in the login page. An Added bonus was getting to
+                                construct protected links to prevent bypasses.
+                                
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Discord-Mock
+                            </div>
+                            <div className="project-icon-holder">
+                            <BsDisplay className="git-icon"/>
+                            <BsGithub className="git-icon"/>
+                            </div>
+                        </div>
                     </div>
                     <div className="project-card-container">
+                    <div className="project-card-image">
+                            <img src={BattleshipExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container">
+                                
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                BattleShip
+                            </div>
+                            <div className="project-icon-holder">
+                            <BsDisplay className="git-icon"/>
+                            <BsGithub className="git-icon"/>
+                            </div>
+                        </div>
 
                     </div>
                     <div className="project-card-container">
+                    <div className="project-card-image">
+                            <img src={WaldoExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container">
+                                
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Where's Waldo
+                            </div>
+                            <div className="project-icon-holder">
+                            <BsDisplay className="git-icon"/>
+                            <BsGithub className="git-icon"/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="project-column-two">
+                    <div className="project-card-container">
+                        <div className="project-card-image">
+                            <img src={WeatherExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container">
+                                
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Weather API
+                            </div>
+                            <div className="project-icon-holder">
+                            <BsDisplay className="git-icon"/>
+                            <BsGithub className="git-icon"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project-card-container">
+                    <div className="project-card-image">
+                            <img src={ShoppingExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container">
+                                
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Boba World
+                            </div>
+                            <div className="project-icon-holder">
+                            <BsDisplay className="git-icon"/>
+                            <BsGithub className="git-icon"/>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="project-card-container">
+                    <div className="project-card-image">
+                            <img src={MatchingExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container">
+                                
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Pokemon Matching
+                            </div>
+                            <div className="project-icon-holder">
+                            <BsDisplay className="git-icon"/>
+                            <BsGithub className="git-icon"/>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>

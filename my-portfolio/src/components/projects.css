@@ -40,33 +40,36 @@
 
 .projects-body-container {
     min-height: 30em;
+    max-height: 30em;
     min-width: 90%;
     display: flex;
     flex-direction: column;
     padding: 1em;
     justify-content: space-between;
+    gap: 1em;
 }
 
 .project-column-one,
 .project-column-two {
     min-height: 30em;
+    max-height: 30em;;
     display: flex;
     justify-content: space-between;
 }
 .project-column-two {
-    visibility: hidden
 }
 
 .project-card-container {
     display: flex;
     flex-direction: column;
+    min-height: 30em;
+
     max-height: 30em;
     min-width: 25em;
     max-width: 25em;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
     border-radius: 1em;
     overflow: hidden;
-
 }
 
 @keyframes draw {
@@ -76,11 +79,54 @@
 }
 
 .project-card-image {
-    min-height: 14em
+    min-height: 14em;
+    max-height: 14em;
+
 }
 
 .project-example {
     max-height: 100%;
     max-width: 100%;
-    visibility: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+}
+
+.project-innerbody-container {
+    max-height: 12em;
+    min-height: 12em;
+
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.project-innnerfooter {
+    display: flex;
+    font-size: 2.5em;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    max-height: 4em;
+    gap: .2em;
+    padding-right: .2em;
+
+}
+
+.git-icon {
+    cursor: pointer;
+}
+
+.project-inner-title {
+    font-weight: bolder;
+}
+
+.project-icon-holder {
+    display: flex;
+    gap: .2em;
+}
+
+.project-title-holder {
+    display: flex;
+    padding-left: .2em;
+
 }
