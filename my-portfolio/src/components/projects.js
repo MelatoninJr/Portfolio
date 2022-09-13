@@ -43,9 +43,9 @@ const Projects = () => {
                         </div>
                         <div className="project-innerbody-container">
                                 This project was created as my final JS project for the TOP ciricullum. It is built with 
-                                React as well as React Hooks. I also got to utilize FireBase for my backend and used their
-                                Google authentication which is shown off in the login page. An Added bonus was getting to
-                                construct protected links to prevent bypasses.
+                                <span className="underline"> React as well as React Hooks.</span> I also got to utilize <span className="underline">FireBase</span> for my backend and used their
+                                <span className="underline"> Google authentication</span> which is shown off in the login page. An Added bonus was getting to
+                                construct <span className="underline">protected links</span> to prevent bypasses.
                                 
                         </div>
                         <div className="project-innnerfooter">
@@ -63,7 +63,8 @@ const Projects = () => {
                             <img src={BattleshipExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                
+                                Battleship was constructed to with the main focus being on <span className="underline">Object Oriented Programming</span> and <span className="underline">Components.</span> I was tasked with using various components
+                                to try and <span className="underline">limit the use of global variables.</span> All of the components where bundled together with <span className="underline">Webpack</span>, and further tested through <span className="underline">Jest Testing Suite.</span>
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
@@ -81,6 +82,8 @@ const Projects = () => {
                             <img src={WaldoExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
+                                Where's Waldo is a <span className="underline">photo tagging app.</span> This project was created with <span className="underline">React.</span> With the focus on <span className="underline">functional components</span> and <span className="underline">React Hooks</span> such as <span className="und">UseRef and UseEffect. </span>
+                                One key element of this project was calculating character coordinates based on dynamic window sizes, and checking player inputs against stored coordinates in <span className="underline">Firebase.</span>
                                 
                         </div>
                         <div className="project-innnerfooter">
@@ -101,7 +104,8 @@ const Projects = () => {
                             <img src={WeatherExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                
+                                My Weather app showcases the local weather forcast for any searched city based on my utilization of <span className="underline">asynchronus javascript.</span> Additionally, it fetches a Weather <span className="underline">API</span> which I deconstruct and display on the page.
+                                It is also able to fetch the correct temperature unit based on a user input button.
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
@@ -118,7 +122,8 @@ const Projects = () => {
                             <img src={ShoppingExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                
+                                Boba World is a shopping cart <span className="underline">web application</span> that takes you through a full user simulated online shopping experience. This application was made with <span className="underline">React and React Hooks.</span> It makes very strong use of storing <span className="underline">state </span> through the <span className="underline">useState hook.</span> As well as
+                                heavy use of <span className="underline">props passed down through the component tree</span> and further deconstructed to display specific item information. 
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
@@ -136,11 +141,12 @@ const Projects = () => {
                             <img src={MatchingExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                
+                                Pokémon Matching is a fun web game that is built with <span className="underline">React, Functional Components, and React Hooks.</span> Users try and only click on a character once with a max score of 12.
+                                On each player input <span className="underline">state is updated</span> and the cards are shuffled accordingly.
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
-                                Pokemon Matching
+                                Pokémon Matching
                             </div>
                             <div className="project-icon-holder">
                             <BsDisplay className="git-icon"/>

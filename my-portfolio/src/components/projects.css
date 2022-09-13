@@ -15,9 +15,11 @@
 .projects-container {
     margin-top: 10em;
     display: flex;
-    min-height: 50em;
+    min-height: 75em;
+    max-height: 75em;
     flex-direction: column;
     align-items: center;
+
 }
 
 .project-title-container {
@@ -41,18 +43,19 @@
 .projects-body-container {
     min-height: 30em;
     max-height: 30em;
-    min-width: 90%;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     padding: 1em;
     justify-content: space-between;
-    gap: 1em;
+    gap: 2em;
 }
 
 .project-column-one,
 .project-column-two {
     min-height: 30em;
     max-height: 30em;;
+    gap: 8em;
     display: flex;
     justify-content: space-between;
 }
@@ -62,7 +65,6 @@
 .project-card-container {
     display: flex;
     flex-direction: column;
-    min-height: 30em;
 
     max-height: 30em;
     min-width: 25em;
@@ -82,6 +84,7 @@
     min-height: 14em;
     max-height: 14em;
 
+
 }
 
 .project-example {
@@ -90,14 +93,17 @@
     min-height: 100%;
     min-width: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+
 }
 
 .project-innerbody-container {
     max-height: 12em;
-    min-height: 12em;
-
+    height: 22em;
+    font-size: 18px;
+    text-align: left;
     padding: 1em;
-    border: 2px solid blue;
+    overflow-y: hidden;
+    
 }
 
 .project-innnerfooter {
@@ -108,7 +114,7 @@
     height: 4em;
     max-height: 4em;
     gap: .2em;
-    padding-right: .2em;
+    padding-right: .4em;
 
 }
 
@@ -127,6 +133,11 @@
 
 .project-title-holder {
     display: flex;
-    padding-left: .2em;
+    padding-left: .4em;
 
+}
+
+.underline {
+    text-decoration: underline;
+    color: blue;
 }
