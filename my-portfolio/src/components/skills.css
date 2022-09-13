@@ -1,9 +1,11 @@
 .skills-container {
-    border: 2px solid blue;
     display: flex;
     min-height: 35em;
     justify-content: center;
-}
+    flex-direction: column;
+    background-color: #a9def9;
+    margin-bottom: 8em;
+}       
 
 .skills-inner-one {
     margin: 2em;
@@ -14,7 +16,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    
     border-radius: 1em;
     justify-content: space-around;
-
+    background-color: white;
 }
 
 
@@ -43,4 +45,63 @@
 .skill-name-container {
 
     font-size: 1em;
+}
+
+
+
+.page-break {
+    position: relative;
+
+}
+
+.custom-shape-divider-bottom-1663029468 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1663029468 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 116px;
+}
+
+.custom-shape-divider-bottom-1663029468 .shape-fill {
+    fill: #A9DEF9;
+}
+
+.custom-shape-divider-top-1663029526 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1663029526 svg {
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 179px;
+}
+
+.custom-shape-divider-top-1663029526 .shape-fill {
+    fill: #A9DEF9;
+}
+
+
+@media (max-width: 900px) {
+
+    .skills-inner-one {
+        min-width: 100%;
+    }
+    .skills-container {
+        padding: 1em;
+    }
 }

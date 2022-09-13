@@ -7,6 +7,7 @@ import './index.css'
 import LearnMore from './components/learnmore'
 import AboutMe from './components/aboutme'
 import Skills from './components/skills'
+import Projects from './components/projects'
 
 const RouteSwitch = () => {
 
@@ -17,6 +18,7 @@ const RouteSwitch = () => {
         <LearnMore />
         <AboutMe />
         <Skills />
+        <Projects />
         </div>
 
   

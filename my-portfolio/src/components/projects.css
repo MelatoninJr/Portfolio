@@ -1,0 +1,86 @@
+:root {
+    --gradient: linear-gradient(
+        30deg,
+        #ff99c8,
+        #fcf6bd,
+        #d0f4de,
+        #a9def9,
+        #e4c1f9
+           )
+
+}
+
+
+
+.projects-container {
+    margin-top: 10em;
+    display: flex;
+    min-height: 50em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title-container {
+    max-width: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    
+    
+}
+.loading {
+    stroke-dasharray: 670;
+    stroke-dashoffset: 670;
+    animation: draw 2s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    fill: transparent;
+}
+
+.projects-body-container {
+    min-height: 30em;
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.project-column-one,
+.project-column-two {
+    min-height: 30em;
+    display: flex;
+    justify-content: space-between;
+}
+.project-column-two {
+    visibility: hidden
+}
+
+.project-card-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 30em;
+    min-width: 25em;
+    max-width: 25em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+    border-radius: 1em;
+    overflow: hidden;
+
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 100;
+    }
+}
+
+.project-card-image {
+    min-height: 14em
+}
+
+.project-example {
+    max-height: 100%;
+    max-width: 100%;
+    visibility: hidden;
+}
