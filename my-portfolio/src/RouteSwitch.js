@@ -26,7 +26,7 @@ const RouteSwitch = () => {
         <div>
         <Header about={about} skills={skills} projects={projects} scroll={scrollToSection}/>
         <Intro />
-        <LearnMore />
+        <LearnMore scroll={scrollToSection} about={about}/>
         <AboutMe about={about}/>
         <Skills skills={skills}/>
         <Projects projects={projects}/>

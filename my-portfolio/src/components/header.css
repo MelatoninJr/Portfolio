@@ -57,5 +57,16 @@ ul {
 @media (max-width: 500px) {
     .header {
       flex-direction: column;
+      max-width: 100%;
+    }
+    .inner-header-one {
+        padding-left: 0em;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .inner-header-two {
+        max-width: 100%;
+        justify-content: center;
+        padding-right: 0em;
     }
   }

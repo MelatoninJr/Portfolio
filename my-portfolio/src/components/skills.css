@@ -20,6 +20,7 @@
     justify-content: space-around;
     background-color: white;
 
+
 }
 
 
@@ -102,8 +103,13 @@
 @media (max-width: 900px) {
 
     .skills-inner-one {
-        min-width: 100%;
+        min-width: 0em;
+        max-width: 100%;
         align-self: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
     }
     .skills-container {
         justify-content: center;
@@ -115,6 +121,12 @@
     }
     .skills-inner-one {
         
+    }
+    .skill-content-container {
+        min-width: 0em;
+        max-width: 4em;
+        max-height: 12em;
+        min-height: 0em;
     }
 }
 
