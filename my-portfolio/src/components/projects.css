@@ -81,6 +81,8 @@
 .project-card-image {
     min-height: 14em;
     max-height: 14em;
+    overflow: hidden;
+
 
 
 }
@@ -160,12 +162,12 @@
     align-items: center;
 }
 .project-card-container {
-    max-width: 100%;
+    max-width: 80%;
     min-width: 0em;
 }
 .project-card-image {
     max-width: 100%;
-    min-height: 0em;
+    min-height: 12em;
     margin-bottom: 2em
 }
 .project-title-container {
@@ -173,8 +175,16 @@
 }
 .project-innerbody-container {
     font-size: 16px;
+    overflow-y: scroll;
+
 }
-    
+.projects-container {
+    margin-top: 8em;
+}
+.project-innnerfooter {
+    max-width: 100%;
+    font-size: 1.5em;
+}
 }
 a {
     color: black;

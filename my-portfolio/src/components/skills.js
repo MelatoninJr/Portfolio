@@ -82,7 +82,7 @@ const Skills = (props) => {
                     </div>
                     <div className="skill-content-container">
                             <SiAdobepremierepro className="skill-icon"/>
-                            <div className="skill-name-container">Premiere Pro</div>
+                            <div className="skill-name-container">Prem Pro</div>
                     </div>
                     <div className="skill-content-container">
                             <SiCanva className="skill-icon"/>

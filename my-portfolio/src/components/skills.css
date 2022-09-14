@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: space-around;
 
+
 }
 .skill-content-container {
     display: flex;
@@ -119,14 +120,13 @@
     .custom-shape-divider-top-1663029526 {
         width: 120%;
     }
-    .skills-inner-one {
-        
+    .skills-holder-one {
+        min-width: 20em;
     }
     .skill-content-container {
-        min-width: 0em;
-        max-width: 4em;
-        max-height: 12em;
-        min-height: 0em;
+        max-width: 2em;
+        max-height: 2em;
+        font-size: 80%
     }
 }
 
