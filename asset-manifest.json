@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.714e1ee7.css",
+    "main.js": "/Portfolio/static/js/main.9995b5c7.js",
+    "static/media/Waldo.gif": "/Portfolio/static/media/Waldo.5cdb6fa7f9ce4e809ee7.gif",
+    "static/media/weather.gif": "/Portfolio/static/media/weather.5dc1e05b26c499056e3f.gif",
+    "static/media/shopping.gif": "/Portfolio/static/media/shopping.84742994a082ef52c156.gif",
+    "static/media/matching.gif": "/Portfolio/static/media/matching.70993064426979a16f8a.gif",
+    "static/media/discord.gif": "/Portfolio/static/media/discord.bb1468876985c13c568d.gif",
+    "static/media/dillon.png": "/Portfolio/static/media/dillon.dc07e87d4d647131c50b.png",
+    "static/media/battleship.gif": "/Portfolio/static/media/battleship.d50a5e3e18fc6a6a289b.gif",
+    "static/media/celiac.png": "/Portfolio/static/media/celiac.a65b0d7fbd1ed9f6e78f.png",
+    "static/media/darts.png": "/Portfolio/static/media/darts.10d3c1ef3259e99dd75d.png",
+    "static/media/rubik.png": "/Portfolio/static/media/rubik.5ffc4665105cc36381ee.png",
+    "static/media/anime.png": "/Portfolio/static/media/anime.8ea2467d27f073b8147e.png",
+    "static/media/corgi.png": "/Portfolio/static/media/corgi.1941bac101583dbb94e0.png",
+    "static/media/jpeg.png": "/Portfolio/static/media/jpeg.edde57bc689c4db451c0.png",
+    "static/media/barbell.png": "/Portfolio/static/media/barbell.f10fe04bf2b31a069442.png",
+    "index.html": "/Portfolio/index.html",
+    "main.714e1ee7.css.map": "/Portfolio/static/css/main.714e1ee7.css.map",
+    "main.9995b5c7.js.map": "/Portfolio/static/js/main.9995b5c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.714e1ee7.css",
+    "static/js/main.9995b5c7.js"
+  ]
+}
