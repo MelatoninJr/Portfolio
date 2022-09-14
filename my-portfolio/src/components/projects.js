@@ -7,10 +7,13 @@ import WaldoExample from '../assets/Waldo.gif'
 import WeatherExample from '../assets/weather.gif'
 import ShoppingExample from '../assets/shopping.gif'
 import MatchingExample from '../assets/matching.gif'
-const Projects = () => {
+import { Link } from "react-router-dom";
+const Projects = (props) => {
+
+    const { projects } = props
 
     return (
-        <div className="projects-container">
+        <div className="projects-container" ref={projects}>
             <div className="project-title-container">
             <svg classlist='project-title' width="383" height="132" viewBox="0 0 383 132" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="path-1-outside-1_1_3" maskUnits="userSpaceOnUse" x="0.150002" y="0.735992" width="383" height="131" fill="black">
@@ -53,8 +56,9 @@ const Projects = () => {
                                 Discord-Mock
                             </div>
                             <div className="project-icon-holder">
-                            <BsDisplay className="git-icon"/>
-                            <BsGithub className="git-icon"/>
+                                <a href="https://melatoninjr.github.io/Discord-Mock/#/" target="_blank"><BsDisplay className="git-icon"/></a>
+                                <a href='https://github.com/MelatoninJr/Discord-Mock' target="_blank"><BsGithub className="git-icon"/></a>
+                            
                             </div>
                         </div>
                     </div>
@@ -71,8 +75,9 @@ const Projects = () => {
                                 BattleShip
                             </div>
                             <div className="project-icon-holder">
-                            <BsDisplay className="git-icon"/>
-                            <BsGithub className="git-icon"/>
+                                <a href='https://melatoninjr.github.io/battleship/' target="_blank"> <BsDisplay className="git-icon"/></a>
+                                <a href='https://github.com/MelatoninJr/battleship'target="_blank"><BsGithub className="git-icon"/></a>
+
                             </div>
                         </div>
 
@@ -91,8 +96,8 @@ const Projects = () => {
                                 Where's Waldo
                             </div>
                             <div className="project-icon-holder">
-                            <BsDisplay className="git-icon"/>
-                            <BsGithub className="git-icon"/>
+                            <a href="https://melatoninjr.github.io/waldo/" target="_blank"><BsDisplay className="git-icon"/></a>
+                            <a href="https://github.com/MelatoninJr/waldo" target="_blank"><BsGithub className="git-icon"/></a>
                             </div>
                         </div>
 
@@ -112,8 +117,8 @@ const Projects = () => {
                                 Weather API
                             </div>
                             <div className="project-icon-holder">
-                            <BsDisplay className="git-icon"/>
-                            <BsGithub className="git-icon"/>
+                            <a href="https://melatoninjr.github.io/Weather-App/" target="_blank"><BsDisplay className="git-icon"/></a>
+                            <a href="https://github.com/MelatoninJr/Weather-App" target="_blank"><BsGithub className="git-icon"/></a>
                             </div>
                         </div>
                     </div>
@@ -130,8 +135,8 @@ const Projects = () => {
                                 Boba World
                             </div>
                             <div className="project-icon-holder">
-                            <BsDisplay className="git-icon"/>
-                            <BsGithub className="git-icon"/>
+                            <a href="https://melatoninjr.github.io/shopping-cart/" target="_blank"><BsDisplay className="git-icon"/></a>
+                            <a href="https://github.com/MelatoninJr/shopping-cart" target="_blank"><BsGithub className="git-icon"/></a>
                             </div>
                         </div>
 
@@ -149,8 +154,8 @@ const Projects = () => {
                                 Pokémon Matching
                             </div>
                             <div className="project-icon-holder">
-                            <BsDisplay className="git-icon"/>
-                            <BsGithub className="git-icon"/>
+                            <a href="https://melatoninjr.github.io/memory-game/" target="_blank"><BsDisplay className="git-icon"/></a>
+                            <a href="https://github.com/MelatoninJr/memory-game" target="_blank"><BsGithub className="git-icon"/></a>
                             </div>
                         </div>
 

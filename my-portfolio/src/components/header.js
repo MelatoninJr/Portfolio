@@ -3,6 +3,8 @@ import './header.css'
 
 const Header = (props) => {
 
+    const { about, skills, projects, scroll} = props
+
     return(
         <div className="header">
             <div className="inner-header-one">
@@ -13,9 +15,9 @@ const Header = (props) => {
             </div>
             <div className="inner-header-two">
                 <ul>
-                    <li className="link">About</li>
-                    <li className="link">Skills</li>
-                    <li className="link">Projects</li>
+                    <li className="link" onClick={() => scroll(about)} >About</li>
+                    <li className="link" onClick={() => scroll(skills)}>Skills</li>
+                    <li className="link" onClick={() => scroll(projects)}>Projects</li>
                     <li className="link">Contact</li>
                 </ul>
             </div>

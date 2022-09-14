@@ -1,9 +1,10 @@
 import React from "react";
 import './skills.css'
 import { SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiGit, SiGithub, SiJest, SiNpm, SiFirebase, SiNodedotjs, SiMongodb, SiReact, SiAdobephotoshop, SiAdobepremierepro, SiCanva, SiWordpress } from "react-icons/si";
-const Skills = () => {
+const Skills = (props) => {
+    const { skills } = props
     return (
-        <div className="skills-container">
+        <div className="skills-container" ref={skills}>
             <section className="page-break">
             <div class="custom-shape-divider-bottom-1663029468">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="helper">

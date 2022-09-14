@@ -10,10 +10,11 @@ import Anime from '../assets/anime.png'
 import Celiac from '../assets/celiac.png'
 import Darts from '../assets/darts.png'
 
-const AboutMe = () => {
+const AboutMe = (props) => {
+    const { about } = props
 
     return(
-        <div className="about-container">
+        <div className="about-container"ref={about}>
             <div className="about-context-container">
                 <div className="pfp-container">
                     <div className="pfp-circle-container">

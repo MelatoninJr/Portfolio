@@ -13,13 +13,11 @@
 
 
 .projects-container {
-    margin-top: 10em;
+    margin-top: 18em;
     display: flex;
     min-height: 75em;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
-
 }
 
 .project-title-container {
@@ -28,7 +26,6 @@
     justify-content: center;
     align-items: center;
     z-index: 3;
-    border: 2px solid blue;
 
     
 }
@@ -44,24 +41,21 @@
 
 .projects-body-container {
     min-height: 30em;
-    max-width: 90%;
+    max-width: 95%;
     display: flex;
     flex-direction: column;
     padding: 1em;
     justify-content: space-between;
-    gap: 2em;
-    border: 2px solid blue;
 
 }
 
 .project-column-one,
 .project-column-two {
-    min-height: 30em;
-    gap: 8em;
+    min-height: 35em;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid purple;
+    gap: 2em;
+    align-items: center;
 
 }
 .project-column-two {
@@ -170,3 +164,21 @@
 }
     
 }
+a {
+    color: black;
+}
+
+.git-icon
+ {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .git-icon:hover, .git-icon:focus, .git-icon:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }

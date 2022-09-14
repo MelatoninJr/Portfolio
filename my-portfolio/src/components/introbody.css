@@ -15,24 +15,19 @@
     min-height: 30em;
     min-width: 320px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-image: var(--gradient);
     background-size: 400%;
     animation: bg-animation 15s infinite alternate;
+    justify-content: flex-end;
 
 }
 
-.inner-container {
-    flex-grow: 1;
-    max-height: 40em;
-    max-width: 80em;
-    border-radius: 1em;
-    margin: 2em;
-background-color: transparent;
-z-index: 2;
 
-
-}
+.svg-holder {
+    position: relative;
+    
+  }
 
 
 
@@ -41,40 +36,31 @@ z-index: 2;
     100% {background-position: 100%;}
 
 }
-
-
-
-.custom-shape-divider-bottom-1663002224 {
-    position: relative;
-    z-index: 1;
-    top: 69%;
+.custom-shape-divider-bottom-1663109338 {
+    position: absolute;
     bottom: 0;
     left: 0;
-    min-width: 100%;
-    overflow: visible;
+    width: 100%;
+    overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1663002224 svg {
-    overflow: visible;
+.custom-shape-divider-bottom-1663109338 svg {
     position: relative;
     display: block;
-    width: calc(147% + 1.3px);
-    height: 150px;
+    width: calc(130% + 1.3px);
+    height: 195px;
 }
 
-.custom-shape-divider-bottom-1663002224 .shape-fill {
-    fill: white;
+.custom-shape-divider-bottom-1663109338 .shape-fill {
+    fill: #FFFFFF;
 }
-/*
-path {
-    fill: none;
-    stroke: black;
-    stroke-width: 1px;
-    stroke-linejoin: 2,2;
-    stroke-linejoin: round;
-  }*/
+
+
+
+
+
 
   .intro-gradient {
    
@@ -83,3 +69,34 @@ path {
         /* Similar syntax to box-shadow */
       
   }
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+path {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    stroke-linejoin: 2,2;
+    stroke-linejoin: round;
+  }*/
