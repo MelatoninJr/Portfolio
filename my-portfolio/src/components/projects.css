@@ -52,8 +52,8 @@
 .project-column-one,
 .project-column-two {
     min-height: 35em;
+    max-height: 35em;
     display: flex;
-    justify-content: center;
     gap: 2em;
     align-items: center;
 
@@ -65,7 +65,6 @@
     display: flex;
     flex-direction: column;
     max-height: 30em;
-    min-width: 25em;
     max-width: 25em;
     border-radius: 1em;
     box-shadow: rgba(110, 110, 110, 0.3) 0px 6px 9px, rgba(93, 93, 93, 0.22) 0px 15px 12px;
@@ -79,7 +78,6 @@
 }
 
 .project-card-image {
-    min-height: 14em;
     max-height: 14em;
     overflow: hidden;
 
@@ -95,14 +93,17 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
 
 }
-
+element::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
 .project-innerbody-container {
     max-height: 12em;
     height: 22em;
     font-size: 18px;
     text-align: left;
     padding: 1em;
-    overflow-y: hidden;
+    overflow-y: scroll;
+    
     
 }
 
@@ -142,50 +143,7 @@
     color: black;
 }
 
-@media (max-width: 900px) {
-    .projects-container {
-        max-width: 100%;
-    }
-    .project-title-container {
-    }
-    .project-column-one,
-    .project-column-two {
-    flex-direction: column;
-    max-height: 100%;
-    gap: 2em;
-}
-.projects-body-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 12em;
-    justify-content: center;
-    align-items: center;
-}
-.project-card-container {
-    max-width: 80%;
-    min-width: 0em;
-}
-.project-card-image {
-    max-width: 100%;
-    min-height: 12em;
-    margin-bottom: 2em
-}
-.project-title-container {
-    max-width: 100%;
-}
-.project-innerbody-container {
-    font-size: 16px;
-    overflow-y: scroll;
 
-}
-.projects-container {
-    margin-top: 8em;
-}
-.project-innnerfooter {
-    max-width: 100%;
-    font-size: 1.5em;
-}
-}
 a {
     color: black;
 }
@@ -219,3 +177,48 @@ a {
     -webkit-transform: scale(1.04);
     transform: scale(1.04);
   }
+
+  @media (max-width: 800px) {
+    .projects-container {
+        max-width: 100%;
+    }
+    .project-title-container {
+    }
+    .project-column-one,
+    .project-column-two {
+    flex-direction: column;
+    max-height: 100%;
+    gap: 2em;
+}
+.projects-body-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.project-card-container {
+    max-width: 80%;
+    min-width: 0em;
+}
+.project-card-image {
+    max-width: 100%;
+    min-height: 12em;
+    margin-bottom: 2em
+}
+.project-title-container {
+    max-width: 100%;
+}
+.project-innerbody-container {
+    font-size: 16px;
+    overflow-y: scroll;
+
+}
+.projects-container {
+    margin-top: 8em;
+}
+.project-innnerfooter {
+    max-width: 100%;
+    font-size: 1.5em;
+}
+}
