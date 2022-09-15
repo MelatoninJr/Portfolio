@@ -8,12 +8,14 @@ import LearnMore from './components/learnmore'
 import AboutMe from './components/aboutme'
 import Skills from './components/skills'
 import Projects from './components/projects'
+import Contact from './components/contact'
 import { useRef } from "react";
 
 const RouteSwitch = () => {
     const about = useRef(null)
     const skills = useRef(null)
     const projects = useRef(null)
+    const contact = useRef(null)
 
     const scrollToSection = (elementRef) => {
         window.scrollTo({
@@ -24,12 +26,13 @@ const RouteSwitch = () => {
 
     return (
         <div>
-        <Header about={about} skills={skills} projects={projects} scroll={scrollToSection}/>
+        <Header about={about} skills={skills} projects={projects}  contact={contact} scroll={scrollToSection}/>
         <Intro />
         <LearnMore scroll={scrollToSection} about={about}/>
         <AboutMe about={about}/>
         <Skills skills={skills}/>
         <Projects projects={projects}/>
+        <Contact  contact={contact} />
         </div>
 
   

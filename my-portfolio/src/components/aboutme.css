@@ -60,11 +60,12 @@
     max-width: 40em;
     font-size: 28px;
     text-align: left;
+   
 
   }
     .pfp-container {
-        display: flex;
-        flex-direction: column;
+  display: flex;
+  flex-direction: column;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -235,10 +236,7 @@
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
-  .fun-fact 
- ,.fun-fact 
- :hover, .fun-fact 
- :focus, .fun-fact 
+  .fun-fact ,  .fun-fact 
  :active {
     -webkit-animation-name: hvr-hang-sink, hvr-hang;
     animation-name: hvr-hang-sink, hvr-hang;

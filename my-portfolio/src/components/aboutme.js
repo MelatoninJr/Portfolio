@@ -42,7 +42,7 @@ const AboutMe = (props) => {
                         About Me
                     </div>
                     <div className="content-inside-container">
-                        Can a tax accountant make the leap into the world of tech? <br></br><br></br>
+                        Can a tax accountant 📊 make the  leap into the world of tech? 💻 <br></br><br></br>
                         Hi, I'm Dillon a self-taught web developer. While these two fields might seem quite
                         different they both satisfy my itch for problem solving! Growing up I was always dabbling
                         in creating different types of websites, branding, and projects. The one thing I would always find myself missing

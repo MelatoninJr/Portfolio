@@ -15,6 +15,7 @@ const Intro = (props) => {
                     </section>
 
                 </div>
+                <div className="additional-text"></div>
             </div>
         </div>
     )

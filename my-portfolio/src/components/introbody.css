@@ -76,8 +76,12 @@
 
 
 
-
-
+.additional-text {
+    position: absolute;
+    bottom: 60%;
+    left: 3%;
+    font-size: 44px;
+}
 
 
 

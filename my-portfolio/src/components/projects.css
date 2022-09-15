@@ -67,8 +67,8 @@
     max-height: 30em;
     min-width: 25em;
     max-width: 25em;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
     border-radius: 1em;
+    box-shadow: rgba(110, 110, 110, 0.3) 0px 6px 9px, rgba(93, 93, 93, 0.22) 0px 15px 12px;
     overflow: hidden;
 }
 
@@ -139,7 +139,7 @@
 
 .underline {
     text-decoration: underline;
-    color: blue;
+    color: black;
 }
 
 @media (max-width: 900px) {
@@ -203,4 +203,19 @@ a {
   .git-icon:hover, .git-icon:focus, .git-icon:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+  }
+
+
+  .project-card-container {
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .project-card-container:hover,    .project-card-container:focus,    .project-card-container:active {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
   }
