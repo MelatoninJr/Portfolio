@@ -100,8 +100,12 @@ element::-webkit-scrollbar {
     text-align: left;
     padding: 1em;
     overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
     
-    
+}
+.project-innerbody-container::-webkit-scrollbar {
+    display: none;
 }
 
 .project-innnerfooter {
@@ -175,7 +179,7 @@ a {
     transform: scale(1.04);
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .projects-container {
         max-width: 100%;
     }
