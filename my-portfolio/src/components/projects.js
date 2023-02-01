@@ -7,6 +7,7 @@ import WaldoExample from '../assets/Waldo.gif'
 import WeatherExample from '../assets/weather.gif'
 import ShoppingExample from '../assets/shopping.gif'
 import MatchingExample from '../assets/matching.gif'
+import CreditExample from '../assets/credit.gif'
 import { Link } from "react-router-dom";
 const Projects = (props) => {
 
@@ -62,25 +63,23 @@ const Projects = (props) => {
                             </div>
                         </div>
                     </div>
+
                     <div className="project-card-container">
-                    <div className="project-card-image">
-                            <img src={BattleshipExample} className='project-example' ></img>
+                        <div className="project-card-image">
+                            <img src={CreditExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                Battleship was constructed to with the main focus being on <span className="underline">Object Oriented Programming</span> and <span className="underline">Components.</span> I was tasked with using various components
-                                to try and <span className="underline">limit the use of global variables.</span> All of the components where bundled together with <span className="underline">Webpack</span>, and further tested through <span className="underline">Jest Testing Suite.</span>
+                                Credit form showcases the use of <span className="underline">React components and vanilla CSS. </span> This particular project shows off the use of <span className="underline">media queries </span>for a fully <span className="underline">responsive display.</span> The form has valdiation and is easy to use on all different devices such as desktop, tablet, and mobile view.
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
-                                BattleShip
+                                Credit Form
                             </div>
                             <div className="project-icon-holder">
-                                <a href='https://melatoninjr.github.io/battleship/' target="_blank"> <BsDisplay className="git-icon"/></a>
-                                <a href='https://github.com/MelatoninJr/battleship'target="_blank"><BsGithub className="git-icon"/></a>
-
+                            <a href="https://melatoninjr.github.io/frontend-mentor/" target="_blank"><BsDisplay className="git-icon"/></a>
+                            <a href="https://github.com/MelatoninJr/frontend-mentor" target="_blank"><BsGithub className="git-icon"/></a>
                             </div>
                         </div>
-
                     </div>
                     <div className="project-card-container">
                     <div className="project-card-image">
@@ -104,23 +103,25 @@ const Projects = (props) => {
                     </div>
                 </div>
                 <div className="project-column-two">
-                    <div className="project-card-container">
-                        <div className="project-card-image">
-                            <img src={WeatherExample} className='project-example' ></img>
+                <div className="project-card-container">
+                    <div className="project-card-image">
+                            <img src={BattleshipExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                My Weather app showcases the local weather forcast for any searched city based on my utilization of <span className="underline">asynchronus javascript.</span> Additionally, it fetches a Weather <span className="underline">API</span> which I deconstruct and display on the page.
-                                It is also able to fetch the correct temperature unit based on a user input button.
+                                Battleship was constructed to with the main focus being on <span className="underline">Object Oriented Programming</span> and <span className="underline">Components.</span> I was tasked with using various components
+                                to try and <span className="underline">limit the use of global variables.</span> All of the components where bundled together with <span className="underline">Webpack</span>, and further tested through <span className="underline">Jest Testing Suite.</span>
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
-                                Weather API
+                                BattleShip
                             </div>
                             <div className="project-icon-holder">
-                            <a href="https://melatoninjr.github.io/Weather-App/" target="_blank"><BsDisplay className="git-icon"/></a>
-                            <a href="https://github.com/MelatoninJr/Weather-App" target="_blank"><BsGithub className="git-icon"/></a>
+                                <a href='https://melatoninjr.github.io/battleship/' target="_blank"> <BsDisplay className="git-icon"/></a>
+                                <a href='https://github.com/MelatoninJr/battleship'target="_blank"><BsGithub className="git-icon"/></a>
+
                             </div>
                         </div>
+
                     </div>
                     <div className="project-card-container">
                     <div className="project-card-image">
