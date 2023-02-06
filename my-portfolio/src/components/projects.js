@@ -8,6 +8,8 @@ import WeatherExample from '../assets/weather.gif'
 import ShoppingExample from '../assets/shopping.gif'
 import MatchingExample from '../assets/matching.gif'
 import CreditExample from '../assets/credit.gif'
+import MemberExample from '../assets/members.gif'
+
 import { Link } from "react-router-dom";
 const Projects = (props) => {
 
@@ -41,6 +43,25 @@ const Projects = (props) => {
             </div>
             <div className="projects-body-container">
                 <div className="project-column-one">
+                <div className="project-card-container">
+                    <div className="project-card-image">
+                            <img src={MemberExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container"> 
+                        The "Members Only" project is a secure <span className="underline">CRUD</span> application with user authentication and access control features. Built with technologies such as <span className="underline">Express.js, Mongoose, MongoDB, Passport.js, Bcrypt, and EJS</span>, it provides a secure way to manage user information through hashing and multiple authentication strategies.
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Members Only
+                            </div>
+                            <div className="project-icon-holder">
+                            <a href="https://members-production.up.railway.app/login" target="_blank"><BsDisplay className="git-icon"/></a>
+                            <a href="https://github.com/MelatoninJr?tab=repositories" target="_blank"><BsGithub className="git-icon"/></a>
+                            </div>
+                        </div>
+
+
+                    </div>
                     <div className="project-card-container">
                         <div className="project-card-image">
                             <img src={DiscordExample} className='project-example' ></img>
@@ -64,6 +85,7 @@ const Projects = (props) => {
                         </div>
                     </div>
 
+
                     <div className="project-card-container">
                         <div className="project-card-image">
                             <img src={CreditExample} className='project-example' ></img>
@@ -81,7 +103,10 @@ const Projects = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="project-card-container">
+
+                </div>
+                <div className="project-column-two">
+                <div className="project-card-container">
                     <div className="project-card-image">
                             <img src={WaldoExample} className='project-example' ></img>
                         </div>
@@ -101,8 +126,6 @@ const Projects = (props) => {
                         </div>
 
                     </div>
-                </div>
-                <div className="project-column-two">
                 <div className="project-card-container">
                     <div className="project-card-image">
                             <img src={BattleshipExample} className='project-example' ></img>
@@ -142,26 +165,7 @@ const Projects = (props) => {
                         </div>
 
                     </div>
-                    <div className="project-card-container">
-                    <div className="project-card-image">
-                            <img src={MatchingExample} className='project-example' ></img>
-                        </div>
-                        <div className="project-innerbody-container">
-                                Pokémon Matching is a fun web game that is built with <span className="underline">React, Functional Components, and React Hooks.</span> Users try and only click on a character once with a max score of 12.
-                                On each player input <span className="underline">state is updated</span> and the cards are shuffled accordingly.
-                        </div>
-                        <div className="project-innnerfooter">
-                            <div className="project-title-holder">
-                                Pokémon Matching
-                            </div>
-                            <div className="project-icon-holder">
-                            <a href="https://melatoninjr.github.io/memory-game/" target="_blank"><BsDisplay className="git-icon"/></a>
-                            <a href="https://github.com/MelatoninJr/memory-game" target="_blank"><BsGithub className="git-icon"/></a>
-                            </div>
-                        </div>
 
-
-                    </div>
                 </div>
 
             </div>
