@@ -12,7 +12,7 @@ import MemberExample from '../assets/members.gif'
 
 import { Link } from "react-router-dom";
 const Projects = (props) => {
-
+//
     const { projects } = props
 
     return (
