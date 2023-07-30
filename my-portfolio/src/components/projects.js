@@ -175,10 +175,3 @@ const Projects = (props) => {
 }
 
 export default Projects;
-/*
-This unique web project showcases the successful collaboration between me, a contracted artist, and the use of modern web technologies, namely React and Tailwind CSS.
-
-Working from a detailed Figma wireframe provided by the artist, I leveraged the power of React to create an interactive UI and used Tailwind CSS to achieve custom, responsive design. This efficient and streamlined process ensured that the artistic vision was maintained throughout, resulting in a website that's visually striking, user-friendly, and technically robust.
-
-This project stands as proof of my ability to not only handle technical tools effectively but also to successfully collaborate within a cross-disciplinary team, creating a final product that truly marries form and function.
-*/
