@@ -9,7 +9,7 @@ import ShoppingExample from '../assets/shopping.gif'
 import MatchingExample from '../assets/matching.gif'
 import CreditExample from '../assets/credit.gif'
 import MemberExample from '../assets/members.gif'
-
+import CopeExample from '../assets/cope.gif'
 import { Link } from "react-router-dom";
 const Projects = (props) => {
 //
@@ -148,15 +148,14 @@ const Projects = (props) => {
                     </div>
                     <div className="project-card-container">
                     <div className="project-card-image">
-                            <img src={ShoppingExample} className='project-example' ></img>
+                            <img src={CopeExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                Boba World is a shopping cart <span className="underline">web application</span> that takes you through a full user simulated online shopping experience. This application was made with <span className="underline">React and React Hooks.</span> It makes very strong use of storing <span className="underline">state </span> through the <span className="underline">useState hook.</span> As well as
-                                heavy use of <span className="underline">props passed down through the component tree</span> and further deconstructed to display specific item information. 
+                        Working from a detailed Figma wireframe provided by the artist, I leveraged the power of React to create an interactive UI and used Tailwind CSS to achieve custom, responsive design. This efficient and streamlined process ensured that the artistic vision was maintained throughout, resulting in a website that's visually striking, user-friendly, and technically robust.
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
-                                Boba World
+                                Cope Logistic
                             </div>
                             <div className="project-icon-holder">
                             <a href="https://melatoninjr.github.io/shopping-cart/" target="_blank"><BsDisplay className="git-icon"/></a>
