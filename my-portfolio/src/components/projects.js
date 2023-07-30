@@ -10,6 +10,7 @@ import MatchingExample from '../assets/matching.gif'
 import CreditExample from '../assets/credit.gif'
 import MemberExample from '../assets/members.gif'
 import CopeExample from '../assets/cope.gif'
+import CodexExample from '../assets/codex.gif'
 import { Link } from "react-router-dom";
 const Projects = (props) => {
     //
@@ -88,14 +89,14 @@ const Projects = (props) => {
 
                     <div className="project-card-container">
                         <div className="project-card-image">
-                            <img src={CreditExample} className='project-example' ></img>
+                            <img src={CodexExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
                             The "Codex Project" is a sleek, blockchain-focused web application built with React and Tailwind. Utilizing React Routing for seamless navigation, and the Google Forms workaround for data collection, it's a compact solution designed to interact with and manage blockchain-based projects efficiently. Ensured quality and reliability through thorough testing with the React Testing Library.
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
-                                Credit Form
+                                Codex
                             </div>
                             <div className="project-icon-holder">
                                 <a href="https://melatoninjr.github.io/frontend-mentor/" target="_blank"><BsDisplay className="git-icon" /></a>
