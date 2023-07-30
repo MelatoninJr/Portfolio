@@ -44,7 +44,45 @@ const Projects = (props) => {
             </div>
             <div className="projects-body-container">
                 <div className="project-column-one">
-                    <div className="project-card-container">
+
+
+                                        <div className="project-card-container">
+                        <div className="project-card-image">
+                            <img src={CopeExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container">
+                            Working from a detailed Figma wireframe provided by the artist, I leveraged the power of React to create an interactive UI and used Tailwind CSS to achieve custom, responsive design. This efficient and streamlined process ensured that the artistic vision was maintained throughout, resulting in a website that's visually striking, user-friendly, and technically robust.
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Cope Logistic
+                            </div>
+                            <div className="project-icon-holder">
+                                <a href="https://www.copelogistic.com/" target="_blank"><BsDisplay className="git-icon" /></a>
+                                <a href="https://github.com/MelatoninJr?tab=repositories" target="_blank"><BsGithub className="git-icon" /></a>
+                            </div>
+                        </div>
+
+                    </div>
+  
+                                        <div className="project-card-container">
+                        <div className="project-card-image">
+                            <img src={CodexExample} className='project-example' ></img>
+                        </div>
+                        <div className="project-innerbody-container">
+                            The "Codex Project" is a sleek, blockchain-focused web application built with React and Tailwind. Utilizing React Routing for seamless navigation, and the Google Forms workaround for data collection, it's a compact solution designed to interact with and manage blockchain-based projects efficiently. Ensured quality and reliability through thorough testing with the React Testing Library.
+                        </div>
+                        <div className="project-innnerfooter">
+                            <div className="project-title-holder">
+                                Codex
+                            </div>
+                            <div className="project-icon-holder">
+                                <a href="https://www.codexdao.io/" target="_blank"><BsDisplay className="git-icon" /></a>
+                            </div>
+                        </div>
+                    </div>
+      
+                  <div className="project-card-container">
                         <div className="project-card-image">
                             <img src={MemberExample} className='project-example' ></img>
                         </div>
@@ -63,47 +101,12 @@ const Projects = (props) => {
 
 
                     </div>
-                    <div className="project-card-container">
-                        <div className="project-card-image">
-                            <img src={DiscordExample} className='project-example' ></img>
-                        </div>
-                        <div className="project-innerbody-container">
-                            This project was created as my final JS project for the TOP curicullum. It is built with
-                            <span className="underline"> React as well as React Hooks.</span> I also got to utilize <span className="underline">FireBase</span> for my backend and used their
-                            <span className="underline"> Google authentication</span> which is shown off in the login page. An Added bonus was getting to
-                            construct <span className="underline">protected links</span> to prevent bypasses.
 
-                        </div>
-                        <div className="project-innnerfooter">
-                            <div className="project-title-holder">
-                                Discord-Mock
-                            </div>
-                            <div className="project-icon-holder">
-                                <a href="https://melatoninjr.github.io/Discord-Mock/#/" target="_blank"><BsDisplay className="git-icon" /></a>
-                                <a href='https://github.com/MelatoninJr/Discord-Mock' target="_blank"><BsGithub className="git-icon" /></a>
 
-                            </div>
-                        </div>
                     </div>
 
 
-                    <div className="project-card-container">
-                        <div className="project-card-image">
-                            <img src={CodexExample} className='project-example' ></img>
-                        </div>
-                        <div className="project-innerbody-container">
-                            The "Codex Project" is a sleek, blockchain-focused web application built with React and Tailwind. Utilizing React Routing for seamless navigation, and the Google Forms workaround for data collection, it's a compact solution designed to interact with and manage blockchain-based projects efficiently. Ensured quality and reliability through thorough testing with the React Testing Library.
-                        </div>
-                        <div className="project-innnerfooter">
-                            <div className="project-title-holder">
-                                Codex
-                            </div>
-                            <div className="project-icon-holder">
-                                <a href="https://melatoninjr.github.io/frontend-mentor/" target="_blank"><BsDisplay className="git-icon" /></a>
-                                <a href="https://github.com/MelatoninJr/frontend-mentor" target="_blank"><BsGithub className="git-icon" /></a>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
                 <div className="project-column-two">
@@ -147,24 +150,31 @@ const Projects = (props) => {
                         </div>
 
                     </div>
-                    <div className="project-card-container">
+
+
+
+
+                                  <div className="project-card-container">
                         <div className="project-card-image">
-                            <img src={CopeExample} className='project-example' ></img>
+                            <img src={DiscordExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                            Working from a detailed Figma wireframe provided by the artist, I leveraged the power of React to create an interactive UI and used Tailwind CSS to achieve custom, responsive design. This efficient and streamlined process ensured that the artistic vision was maintained throughout, resulting in a website that's visually striking, user-friendly, and technically robust.
+                            This project was created as my final JS project for the TOP curicullum. It is built with
+                            <span className="underline"> React as well as React Hooks.</span> I also got to utilize <span className="underline">FireBase</span> for my backend and used their
+                            <span className="underline"> Google authentication</span> which is shown off in the login page. An Added bonus was getting to
+                            construct <span className="underline">protected links</span> to prevent bypasses.
+
                         </div>
                         <div className="project-innnerfooter">
                             <div className="project-title-holder">
-                                Cope Logistic
+                                Discord-Mock
                             </div>
                             <div className="project-icon-holder">
-                                <a href="https://melatoninjr.github.io/shopping-cart/" target="_blank"><BsDisplay className="git-icon" /></a>
-                                <a href="https://github.com/MelatoninJr/shopping-cart" target="_blank"><BsGithub className="git-icon" /></a>
+                                <a href="https://melatoninjr.github.io/Discord-Mock/#/" target="_blank"><BsDisplay className="git-icon" /></a>
+                                <a href='https://github.com/MelatoninJr/Discord-Mock' target="_blank"><BsGithub className="git-icon" /></a>
+
                             </div>
                         </div>
-
-                    </div>
 
                 </div>
 
