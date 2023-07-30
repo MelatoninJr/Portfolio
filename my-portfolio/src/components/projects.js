@@ -67,7 +67,7 @@ const Projects = (props) => {
                             <img src={DiscordExample} className='project-example' ></img>
                         </div>
                         <div className="project-innerbody-container">
-                                This project was created as my final JS project for the TOP ciricullum. It is built with 
+                                This project was created as my final JS project for the TOP curicullum. It is built with 
                                 <span className="underline"> React as well as React Hooks.</span> I also got to utilize <span className="underline">FireBase</span> for my backend and used their
                                 <span className="underline"> Google authentication</span> which is shown off in the login page. An Added bonus was getting to
                                 construct <span className="underline">protected links</span> to prevent bypasses.
